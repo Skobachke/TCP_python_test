@@ -7,7 +7,6 @@ def Main():
     s = socket.socket()
     s.bind((host, port))
     s.listen(1)
-    print("11111")
     c, addr = s.accept()
     print("Connection from: " + str(addr))
     while True:
