@@ -1,4 +1,3 @@
-#  '"!/usr/bin/env python11"'
 import socket
 
 def Main():
